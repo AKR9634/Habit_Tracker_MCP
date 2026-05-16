@@ -2,10 +2,12 @@ from fastmcp import FastMCP
 import json
 import pathlib
 from datetime import date, datetime, timedelta
+import os
 
 mcp = FastMCP(name="Habit Tracker", instructions="Track daily habits, log completions, and view streaks and weekly summarize!!!")
 
-DATA_FILE = pathlib.Path.home() / ".habit_tracker" / "habits.json"
+BASE_DIR = pathlib.Path(__file__).parent
+DATA_FILE = BASE_DIR / "habits.json"
 
 # HELPERS
 
@@ -185,7 +187,7 @@ def undo_log(habit_name: str, log_date: str = "") -> str:
     return f"Removed log for '{habit_name}' on {target}."
 
 
-# ENRTY POINT
+# ENTRY POINT
 
 if __name__ == "__main__":
     mcp.run()

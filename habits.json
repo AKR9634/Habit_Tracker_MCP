@@ -1,0 +1,57 @@
+{
+  "habits": {
+    "morning run": {
+      "name": "Morning Run",
+      "description": "Run at least 20 minutes every morning",
+      "created": "2026-05-16"
+    },
+    "read 30 minutes": {
+      "name": "Read 30 Minutes",
+      "description": "Read a book for at least 30 minutes daily",
+      "created": "2026-05-16"
+    },
+    "drink water": {
+      "name": "Drink Water",
+      "description": "Drink 8 glasses of water throughout the day",
+      "created": "2026-05-16"
+    },
+    "meditate": {
+      "name": "Meditate",
+      "description": "10 minutes of meditation before bed",
+      "created": "2026-05-16"
+    }
+  },
+  "logs": {
+    "morning run": [
+      "2026-05-10",
+      "2026-05-11",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-16"
+    ],
+    "read 30 minutes": [
+      "2026-05-10",
+      "2026-05-12",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16"
+    ],
+    "drink water": [
+      "2026-05-10",
+      "2026-05-11",
+      "2026-05-12",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16"
+    ],
+    "meditate": [
+      "2026-05-11",
+      "2026-05-12",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16"
+    ]
+  }
+}
