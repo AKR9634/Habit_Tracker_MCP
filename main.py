@@ -3,11 +3,14 @@ import json
 import pathlib
 from datetime import date, datetime, timedelta
 import os
+import tempfile
 
 mcp = FastMCP(name="Habit Tracker", instructions="Track daily habits, log completions, and view streaks and weekly summarize!!!")
 
-BASE_DIR = pathlib.Path(__file__).parent
-DATA_FILE = BASE_DIR / "habits.json"
+TEMP_DIR = tempfile.gettempdir()
+# BASE_DIR = pathlib.Path(__file__).parent
+# DATA_FILE = BASE_DIR / "habits.json"
+DATA_FILE = TEMP_DIR / "habits.json"
 
 # HELPERS
 
