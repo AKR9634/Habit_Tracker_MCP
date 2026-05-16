@@ -190,4 +190,4 @@ def undo_log(habit_name: str, log_date: str = "") -> str:
 # ENTRY POINT
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="http", host="0.0.0.0", port=8000)
